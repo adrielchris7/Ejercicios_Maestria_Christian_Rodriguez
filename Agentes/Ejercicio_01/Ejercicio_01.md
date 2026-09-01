@@ -68,19 +68,19 @@ gold: [3, 4]
 ## 02_simple_reflex_agent
 ![alt text]({Simple_Reflex_Agent}.png)
 
-*Insertar explicación* 
+
 
 ## 03_Model_Based_agent
 ![alt text]({Model_based_agent}.png)
 
-*insertar explicacion*
+
 
 ## 04_Goal_based_agent
 
 ![alt text]({Goal_based_agent}.png)
 
 
-*insertar explicacion*
+
 
 ## 05_Utility_based_agent
 ![alt text]({Utility_based_agent}.png)
