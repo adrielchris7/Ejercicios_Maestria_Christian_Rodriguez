@@ -24,6 +24,11 @@ dónde actúa, con qué puede mover o modificar el mundo, y qué puede observar.
 
 - **Enviroment:**
 
+    Podemos decir que es el enviroment es parcialmente observable debido a que el agente solo puede detectar las peticiones pero no la intención, el estado de animo de la petición o el contexto de la pregunta.
+
+    Tambien podemos decir que es un ambiente dinamico, ya que puede surgir una pregunta distinta durante el procesamiento.
+
+
 - **Actuators:**
 
     Los actuadores corresponde a los equipos de sonidos conectados puede ser una bocina de auto o de un celular, en algunas ocasiones hay asistentes de voz que muestran una señal de que estan pensando o trabajando.
@@ -43,6 +48,12 @@ dónde actúa, con qué puede mover o modificar el mundo, y qué puede observar.
 
 - **Enviroment:**
 
+    El robot aspirador cuenta con un ambiente parcialmente observable, ya que su rango de visión se limita a la capacidad de la camara que tenga integrada.
+
+    De igual forma al ser un robot automatico, no necesitamos de otro agente para su trabajo, por lo que decimos que es un agente individual.
+
+    Tambien podemos decir que es estocástico, ya que pueden surguir escenarios nuevos, como que se caiga un vaso, o un mueble se  mueva.
+
 - **Actuators:**
 
     Los actuadores son las motores para las ruedas, el motor de aspiracion, cepillos giratorios, dispensador de agua, altavoz para alertas.
@@ -61,6 +72,11 @@ dónde actúa, con qué puede mover o modificar el mundo, y qué puede observar.
 
 - **Enviroment:**
 
+    Podemos decir que es parcialmente observable ya que se limita al registro de clicks o el tiempo de reproducción.
+
+    Ante la elección o el rechazo, se modifica el historial y el perfil del usuario, por lo que su episodicidad es secuencial.
+
+    Tambien es semidinamico, ya que si el usuario no tiene una interacción puede tomar las tendencial locales o globales.
 
 - **Actuators:**
 
@@ -80,6 +96,12 @@ dónde actúa, con qué puede mover o modificar el mundo, y qué puede observar.
 
 - **Enviroment:**
 
+    El ambiente de un vehiculo autonomo sería que es parcialmente observable, lo cual puede ser un poco riesgoso, ante la exitencia de puntos ciegos, los sensores no pueden controlar lo que pasa en todas las partes del auto, de igual forma no puede ver lo que un auto enfrente bloquea.
+
+    Es un ambiente multiagente ya que debe de reaccionar a los peatones, ciclistas u otros conductores.
+
+    Tambien es dinamico ya que no siempre tendremos los mismos escenarios de tráfico.
+
 - **Actuators:**
     
     Los actuadores son el acelerador, los frenos, las luces intermitentes, la bocina el claxon.
@@ -98,6 +120,11 @@ dónde actúa, con qué puede mover o modificar el mundo, y qué puede observar.
 
 - **Enviroment:**
 
+    Es parcialmente observable ya que solo puede ver el historial de precios pero no puede ver las estrategias de otros usuarios.
+
+    Es estocástico ya que los movimientos de los precios son impredecibles.
+
+    Tambien es dinamicos ya que los precios cambien en segundos, por lo que siempre esta en movimiento
     
 
 - **Actuators:**
@@ -115,6 +142,12 @@ dónde actúa, con qué puede mover o modificar el mundo, y qué puede observar.
 
 - **Enviroment:**
 
+    Es parcialmente observable ya que su rango es observabilidad pueden ser las imagenes medicas proporcionadas, así como los reportes medicos del paciente.
+
+    Tambien puede ser un agente individual ya que se centra en la evaluación de un paciente a la vez.
+
+    Es estático ya que la imagen medica o la lista de sintomas no cambia durante el analisis.
+
 - **Actuators:**
     
     Interfa grafica de usuario, generación de reportes medicos, y las alertas de riesgo elevado.
@@ -127,19 +160,42 @@ dónde actúa, con qué puede mover o modificar el mundo, y qué puede observar.
 
 - **Performance:**
 
+    En una construcción lo que el usuario busca es la seguridad, y eso lo podemos prevenir con el mantenimiento correctivo de: grietas, corrosión, y fugas. 
+
+    Un don inspector debe de ser capaz de detectar estas 3 condiciones a tiempo, para poder prevenir accidentes mortales, por lo que tambien debemos de asegurarnos que tenga una cobertura amplia y que no queden espacios sin inspeccionar.
+
 - **Enviroment:**
 
-- **Actuators:**
+    Dentro de una estructura habrá partes en las que el dron no podrá alcanzaar, como el interior de una tubería. Por lo que es parcialmente observable.
 
+    Tambien puede ser estocástico ya que el clima es impredecible, de igual forma la luz va cambiando dependiendo del clima y de la hora.
+
+- **Actuators:**
+    
+    Al ser un dron, los actuadores son los motores de las hélices, un sistema de rotación 360 grados para la cámara y LEDs. 
 
 - **Sensors:**
+
+    Para la una inspección adecuada necesitamos una camara con una alta resolución, con propiedades terminas e infrarojas, un sensor LiDAR para la detección de las distancia entre los objetos, un sensor GPS, sensores de proximidad ultrasonicos.
 
 8. **Agente jugador de ajedrez**
 
 - **Performance:**
 
+    Para un juego de ajedrez lo que buscamos son las victorias, por lo que podemos medir su efectividad por la cantidad de victorias o de derrotas, que cumpla con todas las reglas del juego, que sea no tome mucho tiempo en cada turno, y que pueda hacer su juego con la menor cantidad de movimientos.
+
 - **Enviroment:**
+
+    Aquí el ambiente es totalmente observable ya que el agente conoce la posición exacta de todas las piezas del tablero.
+
+    Tambien podemos considerarlo como determinista ya que los movimientos se basan en reglas.
+
+    Es secuencial ya que cada turno determina la estrategia para los siguientes turnos
 
 - **Actuators:**
 
+    En el caso de que sea un juego real, debemos de contar con un brazo robotico que pueda mover las piezas o en caso de que sea un juego online, que podamos enviar a traves de codigo los movimientos.
+
 - **Sensors:**
+
+    En el caso de que sea un brazo robótico, necesitamos una camara y necesitamos un sistema de sensores magneticos para poder identificar la ubicación de cada una de las piezas.
