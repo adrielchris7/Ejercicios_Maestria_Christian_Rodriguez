@@ -17,7 +17,7 @@ dónde actúa, con qué puede mover o modificar el mundo, y qué puede observar.
 
 ## Aplicaciones a analizar
 
-1. **Asistente virtual de voz**
+### 1. **Asistente virtual de voz**
 - **Performance:**
     
     El performance de un asistente de virtual de voz se debe de medir con el porcentaje de exactitud que lectura de la peticion del usuario. De la misma manera debe de poder replicar con coherencia a lo que el usuario solicita y en un tiempo razonable, para que la experiencia de uso sea lo mas cercano a un asistente humano.
@@ -38,7 +38,7 @@ dónde actúa, con qué puede mover o modificar el mundo, y qué puede observar.
     Los sensores pueden ser los microfonos que usan para detectar los comandos para interpretar la peticion del usuario. 
     Tambien pueden aplicar los sensores para iniciar el trabajo del asistente, ya sea un boton fisico, o algun sensor de proximidad para detectar que el usuario esta cerca.
 
-2. **Robot aspirador domestico**
+### 2. **Robot aspirador domestico**
 
 - **Performance:**
     
@@ -62,7 +62,7 @@ dónde actúa, con qué puede mover o modificar el mundo, y qué puede observar.
 
     Los sensores pueden ser los sensores de impacto, los sensores de caida, sensores infrarrojos para el mapeo, un encoder para las ruedas.
 
-3. **Sistema de recomendacion de streaming**
+### 3. **Sistema de recomendacion de streaming**
 
 - **Performance:**
 
@@ -86,7 +86,7 @@ dónde actúa, con qué puede mover o modificar el mundo, y qué puede observar.
 
     Los sensores pueden ser los historiales de clicks para ver el tipo de contenido visto por el usuario; el tiempo de permanencia en la recomendacion; barras de busqueda y las clasificaciones de los titulos.
 
-4. **Vehiculo autonomo en ciudad**
+### 4. **Vehiculo autonomo en ciudad**
 
 - **Performance:**
 
@@ -112,7 +112,7 @@ dónde actúa, con qué puede mover o modificar el mundo, y qué puede observar.
     Los sensores en un auto inteligente pueden ser los sensores de deteccion de carriles, sensores de proximidad, sensores de cambio de carril, sensor de colisión.
 
 
-5. **Agente de tradings algoritmico en bolsa**
+### 5. **Agente de tradings algoritmico en bolsa**
 
 - **Performance:**
 
@@ -134,7 +134,7 @@ dónde actúa, con qué puede mover o modificar el mundo, y qué puede observar.
 
     Conexión de datos financieros, los indicadores economicos, noticias sobre economia, y los daotos del mercados
 
-6. **Sistema de diagnosticos medicos asistido por IA**
+### 6. **Sistema de diagnosticos medicos asistido por IA**
 
 - **Performance:**
 
@@ -156,7 +156,7 @@ dónde actúa, con qué puede mover o modificar el mundo, y qué puede observar.
 
     Entrada de texto o de voz.  Entrada de datos sobre los sintomas o signos vitales. La carga de archivos, ya sean expedientes, radiografias o imagenes.
 
-7. **Dron Inspector de infraestructura**
+### 7. **Dron Inspector de infraestructura**
 
 - **Performance:**
 
@@ -178,7 +178,7 @@ dónde actúa, con qué puede mover o modificar el mundo, y qué puede observar.
 
     Para la una inspección adecuada necesitamos una camara con una alta resolución, con propiedades terminas e infrarojas, un sensor LiDAR para la detección de las distancia entre los objetos, un sensor GPS, sensores de proximidad ultrasonicos.
 
-8. **Agente jugador de ajedrez**
+### 8. **Agente jugador de ajedrez**
 
 - **Performance:**
 
