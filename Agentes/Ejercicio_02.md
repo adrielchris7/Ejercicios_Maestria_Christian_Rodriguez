@@ -128,7 +128,7 @@ dónde actúa, con qué puede mover o modificar el mundo, y qué puede observar.
     
 
 - **Actuators:**
-- 
+  
     Envio automaticos de ordenes de compra, la venta o la cancelación a la red de la bolsa
 
 - **Sensors:**
