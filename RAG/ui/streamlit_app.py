@@ -3,7 +3,7 @@ import requests
 
 # Configuración de la página
 st.set_page_config(
-    page_title="RAG System",
+    page_title="RAG-UMY SYSTEM",
     page_icon="🤖",
     layout="wide"
 )
